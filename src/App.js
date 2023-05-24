@@ -36,7 +36,7 @@ function App() {
       <div className="flex flex-col">
         <div className="bg-blue-200 flex flex-col justify-around md:items-center"> 
           <img src={primeLaddersLogo} alt="large logo" className="iconLarge"/>
-        <div className="flex flex-col md:flex-row items-center justify-center space-x-28 bg-blue-200">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-blue-200">
           <img src={ladder1} alt="person climbing a ladder" className="image" />
           <div className="flex flex-col justify-center">
             <h1 className="bg-blue-50 p-2 rounded-t-md">
