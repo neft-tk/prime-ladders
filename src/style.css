@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+}
+
+nav {
+    background-color: gray;
+}
+
+.icon {
+    margin: 10px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+.navBarLink {
+    display: flex;
+    margin: 20px;
+}
