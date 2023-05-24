@@ -47,6 +47,8 @@ nav {
 
 h1 {
     animation: 1s ease-in slideInLeft;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 button{ 

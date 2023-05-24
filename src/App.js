@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="flex flex-row mt-3 border-b border-gray-300">
+        <div className="flex flex-row mt-3  border-b border-gray-300">
           <img
             src={primeLaddersLogo}
             alt="logo for Prime Ladders"
@@ -27,16 +27,16 @@ function App() {
           <a href="blank" target="blank" className="navBarLink">
             About Us
           </a>
-          <div className="info">
+          <div className="hidden md:flex md:flex-col md:absolute md:right-0">
             <h1>123 Main St.</h1>
             <h1>(123) 456-7890</h1>
           </div>
         </div>
       </div>
-      <div className="body flex flex-col">
-        <div className="bg-blue-200 flex flex-col items-center"> 
+      <div className="flex flex-col">
+        <div className="bg-blue-200 flex flex-col justify-around md:items-center"> 
           <img src={primeLaddersLogo} alt="large logo" className="iconLarge"/>
-        <div className="flex flex-row items-center justify-center space-x-28 bg-blue-200">
+        <div className="flex flex-col md:flex-row items-center justify-center space-x-28 bg-blue-200">
           <img src={ladder1} alt="person climbing a ladder" className="image" />
           <div className="flex flex-col justify-center">
             <h1 className="bg-blue-50 p-2 rounded-t-md">
@@ -50,7 +50,7 @@ function App() {
         </div>
 
         </div>
-        <div className="flex flex-row items-center justify-center bg-orange-200">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-orange-200">
           <div>
           <div className="flex flex-col justify-center">
           <h1 className="bg-orange-50 rounded-t-md p-2">
@@ -69,7 +69,7 @@ function App() {
             className="image rounded-sm"
           />
         </div>
-        <div className="flex flex-row items-center justify-center bg-green-200">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-green-200">
           <img
             src={ladder2}
             alt="man climbing ladder adjacent to house"
