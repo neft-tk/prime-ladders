@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 @layer components {
+    .button {
+        @apply rounded-lg bg-black text-white m-2 p-2;
+    }
+}
 
+body {
+    /* font-family: 'League Spartan', sans-serif; */
+    font-family: 'Playfair', serif;
+    font-size: larger;
 }
 
 nav {
@@ -14,12 +22,15 @@ nav {
     margin: 10px;
     max-width: 150px;
     max-height: 150px;
+    mix-blend-mode: multiply;
 }
 
 .image {
-    margin: 20px;
-    max-width: 300px;
-    max-height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    mix-blend-mode: multiply;
 }
 .navBarLink {
     display: flex;
